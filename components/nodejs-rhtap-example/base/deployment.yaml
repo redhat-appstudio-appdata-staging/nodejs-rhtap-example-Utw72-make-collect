@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-rhtap-example
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/pdave-tenant/nodejs-rhtap-example/nodejs-rhtap-example@sha256:a56f9e84f31ca644afcf56f99ba9a0de08236d413cdf4dc3d281495bc97c8ba2
         name: my-nodejs
         ports:
         - containerPort: 3001
