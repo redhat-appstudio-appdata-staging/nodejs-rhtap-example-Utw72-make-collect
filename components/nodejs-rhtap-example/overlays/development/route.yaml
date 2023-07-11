@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nodejs-rhtap-example
     app.kubernetes.io/part-of: nodejs-rhtap-example
-  name: nodejs-rhtap-examplei3dx
+  name: nodejs-rhtap-examplelihn
 spec:
   path: /
   port:
